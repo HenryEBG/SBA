@@ -11,19 +11,19 @@
 }
 
 .ColorBG25{
-  background-color: #0a6697;
+  background-color: #0a6697 !important;
 }
 
 .ColorBG30{
-  background-color: #3282B8;
+  background-color: #3282B8 !important;
 }
 
 .ColorBG35{
-  color: #BBE1FA;
+  background-color: #BBE1FA !important;
 }
 
 .ColorT10{
-  color: #2d3f49;
+  color: #2d3f49 !important;
 }
 
 .ColorT15{
@@ -49,7 +49,6 @@
 .ColorT40{
   color: white !important;
 }
-
 
 
 
