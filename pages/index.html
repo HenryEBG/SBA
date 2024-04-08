@@ -15,39 +15,61 @@
 
 <body class="ColorBG20 d-flex justify-content-center align-items-center vh-100">
   <div class="ColorBG35 p-5 rounded-5 text-secondary ">
+    <!-- Login Icon -->
     <div class="d-flex justify-content-center"> <img src="../images/login-icon.svg" alt="Login-Icon" height="50rem">
     </div>
-    <div class="d-flex justify-content-center">Login</div>
+    <!-- Login tittle -->
+    <div class="d-flex justify-content-center "  style="font-size: 2rem;">Login</div>
+
     <form action="#">
+      <!-- Type of user select -->
+      <div class="input-group mt-2">
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+            <!-- <option selected>Select type of user</option> -->
+            <option value="1">Refugee</option>
+            <option value="2">Volunteer</option>
+            <option value="3">Admin</option>
+          </select>
+          <label for="floatingSelect">Select type of user</label>
+        </div>
+      </div>
+
+      <!-- Username input -->
       <div class="input-group mt-2">
         <div class=" input-group-text ">
           <div><img src="../images/username-icon.svg" alt="UserName" height="25rem" class="ColorBG20 p-1"></div>
           <input class="form-control" type="text" placeholder="UserName">
         </div>
       </div>
-      <div class="input-group mt-2">
-        <!-- Input to add password -->
+
+      <!--password input-->
+      <div class="input-group mt-2">  
         <div class=" input-group-text">
           <div><img src="../images/password-icon.svg" alt="Password" height="25rem" class="ColorBG20 p-1"></div>
           <input class="form-control" type="password" placeholder="Password">
         </div>
       </div>
+
+      <!-- remember me checkbox -->
       <div class="d-flex justify-content-center gap-2">
         <div> <input class="form-check-input" type="checkbox"> </div>
         <div>Remember me</div>
         <div>
           <a class="text-decoration-none ColorT20 " style="font-size: 0.8rem;" href="#">Forgot your password</a>
         </div>
-
       </div>
 
+      <!-- login button -->
       <div class="mt-4 btn ColorBG20 text-white w-100">Login</div>
+
+      <!-- register link -->
       <div class="d-flex justify-content-center gap-3">
         <div>Don't have an account</div>
         <a class="text-decoration-none ColorT20 "  href="#">Register</a>
       </div>
-  </div>
 
+  </div>
   </form>
   </div>
 </body>
