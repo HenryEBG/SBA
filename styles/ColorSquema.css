@@ -1,13 +1,13 @@
 .ColorBG10{
-  background-color: #2d3f49;
+  background-color: #2d3f49 !important;
 }
 
 .ColorBG15{
-  background-color: #15303f;
+  background-color: #15303f !important;
 }
 
 .ColorBG20{
-  background-color: #0F4C75;
+  background-color: #0F4C75 !important;
 }
 
 .ColorBG25{
@@ -27,15 +27,15 @@
 }
 
 .ColorT15{
-  color: #15303f;
+  color: #15303f !important;
 }
 
 .ColorT20{
-  color: #0F4C75;
+  color: #0F4C75 !important;
 }
 
 .ColorT25{
-  color: #0a6697;
+  color: #0a6697 !important;
 }
 
 .ColorT30{
