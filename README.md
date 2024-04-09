@@ -1,5 +1,6 @@
 # SBA Assigment
-## _Login,registration and main page
+## Login,registration and main page
+### Henry Berganza Guevara
 My page is a a webpage to let refugees, volunteers can contact each other looking for help or colaboration.  Always given the importance of the security of the person.
 
 For now I'm begining to figure out what parts are important to include.  
